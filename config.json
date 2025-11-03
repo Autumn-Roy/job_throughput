@@ -1,0 +1,34 @@
+﻿{
+  "total_test_hours": 4.5,
+  "total_nodes": 64,
+  "queue_name": "kshcnormal",
+  "jobs": [
+    {
+      "nodes": 10,
+      "count": 10,
+      "durations": [
+        {"minutes": 30, "ratio": 0.3},
+        {"minutes": 60, "ratio": 0.5},
+        {"minutes": 120, "ratio": 0.2}
+      ]
+    },
+    {
+      "nodes": 4,
+      "count": 30,
+      "durations": [
+        {"minutes": 30, "ratio": 0.3},
+        {"minutes": 60, "ratio": 0.5},
+        {"minutes": 120, "ratio": 0.2}
+      ]
+    },
+    {
+      "nodes": 1,
+      "count": 60,
+      "durations": [
+        {"minutes": 30, "ratio": 0.3},
+        {"minutes": 60, "ratio": 0.5},
+        {"minutes": 120, "ratio": 0.2}
+      ]
+    }
+  ]
+}
